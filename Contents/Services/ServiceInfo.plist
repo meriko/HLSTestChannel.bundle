@@ -9,6 +9,7 @@
 			<key>URLPatterns</key>
 			<array>
 				<string>^http://devimages.apple.com.*</string>
+				<string>^http://nasatv-lh.akamaihd.net*</string>
 			</array>
 		</dict>
 	</dict>

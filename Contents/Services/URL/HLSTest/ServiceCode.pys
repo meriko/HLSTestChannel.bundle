@@ -1,8 +1,15 @@
 ####################################################################################################
 def MetadataObjectForURL(url):
 
+    if 'nasatv' in url:
+        title = 'Live Stream'
+    elif '16x9' in url:
+        title = 'Including subtitles etc'
+    else:
+        title = 'Plain'
+        
     return VideoClipObject(
-        title = 'Apple Sample HLS' 
+        title = title
     )
 
 

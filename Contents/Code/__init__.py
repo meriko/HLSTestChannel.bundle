@@ -29,5 +29,11 @@ def MainMenu():
         )
     )
     
+    oc.add(
+        VideoClipObject(
+            url = 'http://nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8',
+            title = 'Sample - Live stream'
+        )
+    )
 
     return oc
